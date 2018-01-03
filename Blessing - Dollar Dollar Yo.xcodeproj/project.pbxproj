@@ -15,6 +15,15 @@
 		693301E91FEF6AEA00979350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693301E71FEF6AEA00979350 /* LaunchScreen.storyboard */; };
 		693301F41FEF6AEA00979350 /* Blessing___Dollar_Dollar_YoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693301F31FEF6AEA00979350 /* Blessing___Dollar_Dollar_YoTests.swift */; };
 		693301FF1FEF6AEA00979350 /* Blessing___Dollar_Dollar_YoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693301FE1FEF6AEA00979350 /* Blessing___Dollar_Dollar_YoUITests.swift */; };
+		6933020D1FEF6ED600979350 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6933020C1FEF6ED600979350 /* Utils.swift */; };
+		6944A6411FF7329500FABE3B /* Face.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6944A6401FF7329500FABE3B /* Face.swift */; };
+		6952E1151FFC715E003260B2 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6952E1161FFC715E003260B2 /* Async.framework */; };
+		695339A91FF08C590002E55A /* SCNVector3+Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695339A51FF08C580002E55A /* SCNVector3+Distance.swift */; };
+		695339AB1FF08C590002E55A /* SCNNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695339A71FF08C590002E55A /* SCNNode.swift */; };
+		69DF5B611FF2092C0052FFA4 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 69DF5B601FF2092C0052FFA4 /* art.scnassets */; };
+		91CBD04075D09C4FB98DA394 /* Pods_Blessing___Dollar_Dollar_YoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08108106597D1DA887C5029B /* Pods_Blessing___Dollar_Dollar_YoUITests.framework */; };
+		948EF10AEA8EB2C0CE302955 /* Pods_Blessing___Dollar_Dollar_Yo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56257D6D473C912DE20780B /* Pods_Blessing___Dollar_Dollar_Yo.framework */; };
+		FDC733823A56DDCC1F2AB8A5 /* Pods_Blessing___Dollar_Dollar_YoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002A373B3D8A7021487BA2B7 /* Pods_Blessing___Dollar_Dollar_YoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		002A373B3D8A7021487BA2B7 /* Pods_Blessing___Dollar_Dollar_YoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Blessing___Dollar_Dollar_YoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08108106597D1DA887C5029B /* Pods_Blessing___Dollar_Dollar_YoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Blessing___Dollar_Dollar_YoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C0E2802E0BF47A46739E3D5 /* Pods-Blessing - Dollar Dollar YoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blessing - Dollar Dollar YoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blessing - Dollar Dollar YoTests/Pods-Blessing - Dollar Dollar YoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		442FEDED9898221E9C6DA0E8 /* Pods-Blessing - Dollar Dollar YoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blessing - Dollar Dollar YoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blessing - Dollar Dollar YoUITests/Pods-Blessing - Dollar Dollar YoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5817CD50848404E5621C3E18 /* Pods-Blessing - Dollar Dollar Yo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blessing - Dollar Dollar Yo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blessing - Dollar Dollar Yo/Pods-Blessing - Dollar Dollar Yo.debug.xcconfig"; sourceTree = "<group>"; };
+		6824E5F6B79DB5CF3DF6323A /* Pods-Blessing - Dollar Dollar Yo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blessing - Dollar Dollar Yo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blessing - Dollar Dollar Yo/Pods-Blessing - Dollar Dollar Yo.release.xcconfig"; sourceTree = "<group>"; };
 		693301D81FEF6AEA00979350 /* Blessing - Dollar Dollar Yo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blessing - Dollar Dollar Yo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		693301DB1FEF6AEA00979350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		693301DD1FEF6AEA00979350 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +64,15 @@
 		693301FA1FEF6AEA00979350 /* Blessing - Dollar Dollar YoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blessing - Dollar Dollar YoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		693301FE1FEF6AEA00979350 /* Blessing___Dollar_Dollar_YoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Blessing___Dollar_Dollar_YoUITests.swift"; sourceTree = "<group>"; };
 		693302001FEF6AEA00979350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6933020C1FEF6ED600979350 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		6944A6401FF7329500FABE3B /* Face.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Face.swift; sourceTree = "<group>"; };
+		6952E1161FFC715E003260B2 /* Async.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Async.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		695339A51FF08C580002E55A /* SCNVector3+Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Distance.swift"; sourceTree = "<group>"; };
+		695339A71FF08C590002E55A /* SCNNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNNode.swift; sourceTree = "<group>"; };
+		69DF5B601FF2092C0052FFA4 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		B023C0AFC635DD5D5C41E923 /* Pods-Blessing - Dollar Dollar YoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blessing - Dollar Dollar YoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blessing - Dollar Dollar YoTests/Pods-Blessing - Dollar Dollar YoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D56257D6D473C912DE20780B /* Pods_Blessing___Dollar_Dollar_Yo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Blessing___Dollar_Dollar_Yo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3AAA74D14C959F41D8E74C3 /* Pods-Blessing - Dollar Dollar YoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blessing - Dollar Dollar YoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blessing - Dollar Dollar YoUITests/Pods-Blessing - Dollar Dollar YoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6952E1151FFC715E003260B2 /* Async.framework in Frameworks */,
+				948EF10AEA8EB2C0CE302955 /* Pods_Blessing___Dollar_Dollar_Yo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDC733823A56DDCC1F2AB8A5 /* Pods_Blessing___Dollar_Dollar_YoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +97,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91CBD04075D09C4FB98DA394 /* Pods_Blessing___Dollar_Dollar_YoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AC835313E1EA252BFD4F6A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5817CD50848404E5621C3E18 /* Pods-Blessing - Dollar Dollar Yo.debug.xcconfig */,
+				6824E5F6B79DB5CF3DF6323A /* Pods-Blessing - Dollar Dollar Yo.release.xcconfig */,
+				0C0E2802E0BF47A46739E3D5 /* Pods-Blessing - Dollar Dollar YoTests.debug.xcconfig */,
+				B023C0AFC635DD5D5C41E923 /* Pods-Blessing - Dollar Dollar YoTests.release.xcconfig */,
+				F3AAA74D14C959F41D8E74C3 /* Pods-Blessing - Dollar Dollar YoUITests.debug.xcconfig */,
+				442FEDED9898221E9C6DA0E8 /* Pods-Blessing - Dollar Dollar YoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		693301CF1FEF6AEA00979350 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +124,8 @@
 				693301F21FEF6AEA00979350 /* Blessing - Dollar Dollar YoTests */,
 				693301FD1FEF6AEA00979350 /* Blessing - Dollar Dollar YoUITests */,
 				693301D91FEF6AEA00979350 /* Products */,
+				3AC835313E1EA252BFD4F6A0 /* Pods */,
+				DF2DCC2F47D24A1D0D3A55D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +142,13 @@
 		693301DA1FEF6AEA00979350 /* Blessing - Dollar Dollar Yo */ = {
 			isa = PBXGroup;
 			children = (
-				693301DB1FEF6AEA00979350 /* AppDelegate.swift */,
+				69DF5B601FF2092C0052FFA4 /* art.scnassets */,
+				695339A31FF08C480002E55A /* Face Recognition */,
 				693301DD1FEF6AEA00979350 /* ViewController.swift */,
-				693301DF1FEF6AEA00979350 /* Main.storyboard */,
+				6933020C1FEF6ED600979350 /* Utils.swift */,
+				693301DB1FEF6AEA00979350 /* AppDelegate.swift */,
 				693301E51FEF6AEA00979350 /* Assets.xcassets */,
+				693301DF1FEF6AEA00979350 /* Main.storyboard */,
 				693301E71FEF6AEA00979350 /* LaunchScreen.storyboard */,
 				693301EA1FEF6AEA00979350 /* Info.plist */,
 				693301E21FEF6AEA00979350 /* Blessing___Dollar_Dollar_Yo.xcdatamodeld */,
@@ -128,6 +174,27 @@
 			path = "Blessing - Dollar Dollar YoUITests";
 			sourceTree = "<group>";
 		};
+		695339A31FF08C480002E55A /* Face Recognition */ = {
+			isa = PBXGroup;
+			children = (
+				6944A6401FF7329500FABE3B /* Face.swift */,
+				695339A71FF08C590002E55A /* SCNNode.swift */,
+				695339A51FF08C580002E55A /* SCNVector3+Distance.swift */,
+			);
+			path = "Face Recognition";
+			sourceTree = "<group>";
+		};
+		DF2DCC2F47D24A1D0D3A55D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6952E1161FFC715E003260B2 /* Async.framework */,
+				D56257D6D473C912DE20780B /* Pods_Blessing___Dollar_Dollar_Yo.framework */,
+				002A373B3D8A7021487BA2B7 /* Pods_Blessing___Dollar_Dollar_YoTests.framework */,
+				08108106597D1DA887C5029B /* Pods_Blessing___Dollar_Dollar_YoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 693302031FEF6AEA00979350 /* Build configuration list for PBXNativeTarget "Blessing - Dollar Dollar Yo" */;
 			buildPhases = (
+				ED00E15CB5B151A8A2097B96 /* [CP] Check Pods Manifest.lock */,
 				693301D41FEF6AEA00979350 /* Sources */,
 				693301D51FEF6AEA00979350 /* Frameworks */,
 				693301D61FEF6AEA00979350 /* Resources */,
+				A0AD1B1173A2F6AF6135A6CA /* [CP] Embed Pods Frameworks */,
+				EB9C9AACB0C831CB5C219294 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 693302061FEF6AEA00979350 /* Build configuration list for PBXNativeTarget "Blessing - Dollar Dollar YoTests" */;
 			buildPhases = (
+				58DE2D0BEFF40900D3C1B319 /* [CP] Check Pods Manifest.lock */,
 				693301EB1FEF6AEA00979350 /* Sources */,
 				693301EC1FEF6AEA00979350 /* Frameworks */,
 				693301ED1FEF6AEA00979350 /* Resources */,
+				C143ABAF21D4445921AA7C87 /* [CP] Embed Pods Frameworks */,
+				9743B07EF7CF0E62D0E8C821 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 693302091FEF6AEA00979350 /* Build configuration list for PBXNativeTarget "Blessing - Dollar Dollar YoUITests" */;
 			buildPhases = (
+				CA75C224639556E3FC967AAF /* [CP] Check Pods Manifest.lock */,
 				693301F61FEF6AEA00979350 /* Sources */,
 				693301F71FEF6AEA00979350 /* Frameworks */,
 				693301F81FEF6AEA00979350 /* Resources */,
+				BB517ECFFA9AAD42B55BA5CE /* [CP] Embed Pods Frameworks */,
+				703550DB531543A8B9A9CE51 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				693301E91FEF6AEA00979350 /* LaunchScreen.storyboard in Resources */,
+				69DF5B611FF2092C0052FFA4 /* art.scnassets in Resources */,
 				693301E61FEF6AEA00979350 /* Assets.xcassets in Resources */,
 				693301E11FEF6AEA00979350 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +334,178 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		58DE2D0BEFF40900D3C1B319 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Blessing - Dollar Dollar YoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		703550DB531543A8B9A9CE51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blessing - Dollar Dollar YoUITests/Pods-Blessing - Dollar Dollar YoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9743B07EF7CF0E62D0E8C821 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blessing - Dollar Dollar YoTests/Pods-Blessing - Dollar Dollar YoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0AD1B1173A2F6AF6135A6CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Blessing - Dollar Dollar Yo/Pods-Blessing - Dollar Dollar Yo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AsyncSwift/Async.framework",
+				"${BUILT_PRODUCTS_DIR}/BrightFutures/BrightFutures.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SceneKitVideoRecorder/SceneKitVideoRecorder.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Async.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BrightFutures.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SceneKitVideoRecorder.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blessing - Dollar Dollar Yo/Pods-Blessing - Dollar Dollar Yo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB517ECFFA9AAD42B55BA5CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blessing - Dollar Dollar YoUITests/Pods-Blessing - Dollar Dollar YoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C143ABAF21D4445921AA7C87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blessing - Dollar Dollar YoTests/Pods-Blessing - Dollar Dollar YoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA75C224639556E3FC967AAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Blessing - Dollar Dollar YoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB9C9AACB0C831CB5C219294 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blessing - Dollar Dollar Yo/Pods-Blessing - Dollar Dollar Yo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED00E15CB5B151A8A2097B96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Blessing - Dollar Dollar Yo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		693301D41FEF6AEA00979350 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				695339A91FF08C590002E55A /* SCNVector3+Distance.swift in Sources */,
 				693301DE1FEF6AEA00979350 /* ViewController.swift in Sources */,
 				693301DC1FEF6AEA00979350 /* AppDelegate.swift in Sources */,
 				693301E41FEF6AEA00979350 /* Blessing___Dollar_Dollar_Yo.xcdatamodeld in Sources */,
+				6944A6411FF7329500FABE3B /* Face.swift in Sources */,
+				695339AB1FF08C590002E55A /* SCNNode.swift in Sources */,
+				6933020D1FEF6ED600979350 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,36 +669,45 @@
 		};
 		693302041FEF6AEA00979350 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5817CD50848404E5621C3E18 /* Pods-Blessing - Dollar Dollar Yo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5JG4H9G3DC;
 				INFOPLIST_FILE = "Blessing - Dollar Dollar Yo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ninjajaekyung.blessing.Blessing---Dollar-Dollar-Yo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ninjajaekyung.wild;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		693302051FEF6AEA00979350 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6824E5F6B79DB5CF3DF6323A /* Pods-Blessing - Dollar Dollar Yo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5JG4H9G3DC;
 				INFOPLIST_FILE = "Blessing - Dollar Dollar Yo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ninjajaekyung.blessing.Blessing---Dollar-Dollar-Yo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ninjajaekyung.wild;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		693302071FEF6AEA00979350 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C0E2802E0BF47A46739E3D5 /* Pods-Blessing - Dollar Dollar YoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +725,7 @@
 		};
 		693302081FEF6AEA00979350 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B023C0AFC635DD5D5C41E923 /* Pods-Blessing - Dollar Dollar YoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +743,7 @@
 		};
 		6933020A1FEF6AEA00979350 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3AAA74D14C959F41D8E74C3 /* Pods-Blessing - Dollar Dollar YoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +760,7 @@
 		};
 		6933020B1FEF6AEA00979350 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 442FEDED9898221E9C6DA0E8 /* Pods-Blessing - Dollar Dollar YoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
