@@ -20,6 +20,7 @@
 		6952E1151FFC715E003260B2 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6952E1161FFC715E003260B2 /* Async.framework */; };
 		695339A91FF08C590002E55A /* SCNVector3+Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695339A51FF08C580002E55A /* SCNVector3+Distance.swift */; };
 		695339AB1FF08C590002E55A /* SCNNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695339A71FF08C590002E55A /* SCNNode.swift */; };
+		6990CB8B1FFD9347000CCF20 /* CIImage+FaceDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6990CB8A1FFD9347000CCF20 /* CIImage+FaceDetection.swift */; };
 		69DF5B611FF2092C0052FFA4 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 69DF5B601FF2092C0052FFA4 /* art.scnassets */; };
 		91CBD04075D09C4FB98DA394 /* Pods_Blessing___Dollar_Dollar_YoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08108106597D1DA887C5029B /* Pods_Blessing___Dollar_Dollar_YoUITests.framework */; };
 		948EF10AEA8EB2C0CE302955 /* Pods_Blessing___Dollar_Dollar_Yo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56257D6D473C912DE20780B /* Pods_Blessing___Dollar_Dollar_Yo.framework */; };
@@ -69,6 +70,7 @@
 		6952E1161FFC715E003260B2 /* Async.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Async.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		695339A51FF08C580002E55A /* SCNVector3+Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Distance.swift"; sourceTree = "<group>"; };
 		695339A71FF08C590002E55A /* SCNNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNNode.swift; sourceTree = "<group>"; };
+		6990CB8A1FFD9347000CCF20 /* CIImage+FaceDetection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CIImage+FaceDetection.swift"; sourceTree = "<group>"; };
 		69DF5B601FF2092C0052FFA4 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		B023C0AFC635DD5D5C41E923 /* Pods-Blessing - Dollar Dollar YoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blessing - Dollar Dollar YoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blessing - Dollar Dollar YoTests/Pods-Blessing - Dollar Dollar YoTests.release.xcconfig"; sourceTree = "<group>"; };
 		D56257D6D473C912DE20780B /* Pods_Blessing___Dollar_Dollar_Yo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Blessing___Dollar_Dollar_Yo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -180,6 +182,7 @@
 				6944A6401FF7329500FABE3B /* Face.swift */,
 				695339A71FF08C590002E55A /* SCNNode.swift */,
 				695339A51FF08C580002E55A /* SCNVector3+Distance.swift */,
+				6990CB8A1FFD9347000CCF20 /* CIImage+FaceDetection.swift */,
 			);
 			path = "Face Recognition";
 			sourceTree = "<group>";
@@ -505,6 +508,7 @@
 				693301E41FEF6AEA00979350 /* Blessing___Dollar_Dollar_Yo.xcdatamodeld in Sources */,
 				6944A6411FF7329500FABE3B /* Face.swift in Sources */,
 				695339AB1FF08C590002E55A /* SCNNode.swift in Sources */,
+				6990CB8B1FFD9347000CCF20 /* CIImage+FaceDetection.swift in Sources */,
 				6933020D1FEF6ED600979350 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

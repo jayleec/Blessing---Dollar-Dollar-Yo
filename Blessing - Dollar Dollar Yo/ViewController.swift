@@ -7,46 +7,44 @@
 //
 
 import UIKit
-import SceneKit
 import ARKit
+import SceneKit
 import SceneKitVideoRecorder
-
-import Vision
 import RxSwift
 import RxCocoa
 import Async
-
-
+import Vision
 
 class ViewController: UIViewController, ARSCNViewDelegate {
     
     @IBOutlet weak var sceneView: ARSCNView!
+    
     var scnScene: SCNScene!
     
     var recorder: SceneKitVideoRecorder?
+    
     private var selfy: Bool = false
     
     // MARK: Render TEST
-    var spawnTime: TimeInterval = 0
+//    var spawnTime: TimeInterval = 0
     
     // MARK: Face Detection;
     var faceList: [Face] = []
     var faceIndex: Int = 0
-    
     var 👜 = DisposeBag()
     var bounds: CGRect = CGRect(x: 0, y: 0, width: 0, height: 0)
     
-    // MARK: Particle
-    var currentEffect: String = "art.scnassets/fire_coin_test"
     var faces: Int = 0
     var num: Int = 0
-    
     var cnt: Int = 0
     var current: Int = 0
     
+    // MARK: Particle
+    var currentEffect: String = "art.scnassets/fire_coin_test"
+    
     // MARK: sound
     var soundName = "art.scnassets/audio/coin.mp3"
-    var jumpSound: SCNAudioSource!
+    var coinSound: SCNAudioSource!
     var audioNode = SCNNode()
     
     override func viewDidLoad() {
@@ -59,19 +57,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         setupScene()
         
         recorder = try! SceneKitVideoRecorder(withARSCNView: sceneView)
-        
-        // MARK: Set up Face Detection
-        bounds = sceneView.bounds
-        
-        // prepare sound
-        
-        jumpSound = SCNAudioSource(named: soundName)!
-        jumpSound.volume = 0.2
-        jumpSound.isPositional = false
-        jumpSound.load()
-        
-        scnScene.rootNode.addAudioPlayer(SCNAudioPlayer(source: self.jumpSound))
-        
         
     }
     
@@ -95,7 +80,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                 self.updateNode(face: element.observation, image: element.image, frame: element.frame)
             }.disposed(by: 👜)
         
-        
     }
 
     override func viewWillDisappear(_ animated: Bool) {
@@ -106,13 +90,24 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.session.pause()
     }
     
-    // MARK setup
+    // MARK: setup
     func setupScene() {
         scnScene = SCNScene()
         sceneView.scene = scnScene
+        
+        // MARK: Set up Face Detection
+        bounds = sceneView.bounds
+        
+        // prepare sound
+        coinSound = SCNAudioSource(named: soundName)!
+        coinSound.volume = 0.2
+        coinSound.isPositional = false
+        coinSound.load()
+        
+        scnScene.rootNode.addAudioPlayer(SCNAudioPlayer(source: self.coinSound))
     }
     
-    // MARK: Change Camera;
+    // MARK: Change Camera
     @IBAction func changeCamera(_ sender: Any) {
         
         sceneView.session.pause()
@@ -134,9 +129,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     @IBAction func startRecording(_ sender: UIButton) {
         sender.backgroundColor = .red
         
-        self.recorder?.startWriting().onSuccess {
-            
-        }
+        self.recorder?.startWriting().onSuccess {}
     }
     
     // MARK: Stop Recording;
@@ -153,7 +146,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         super.didReceiveMemoryWarning()
     }
     
-    // MARK: MAINmain
+    // MARK: main
     func main() {
         
         let array = faceObservation()
@@ -187,9 +180,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         guard let faceAnchor = anchor as? ARFaceAnchor else { return }
         print("faceAnchor \(faceAnchor)")
         
- 
     }
-    
     
     func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
         let node = SCNNode()
@@ -260,7 +251,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     //TODO: cleanup outside of view
     
-    
     // MARK: Update Node - sound / point / money sprey
     private func updateNode(face: VNFaceObservation, image: CIImage, frame: ARFrame) {
         
@@ -268,17 +258,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Determine position of the face
         let boundingBox = self.transformBoundingBox(face.boundingBox)
-        
-        //print("boundingBox : \(boundingBox.size)")
-        
+
         guard let worldCoord = self.normalizeWorldCoord(boundingBox) else {
             print("No feature point found")
             return
         }
-        
-        print("worldCoord  \(worldCoord)")
-        //TODO: face boundingBox에서 상위 부분을 추출
-        //worldCoord.y = worldCoord.y + 0.04
         
         let geometryNode = drawPoint(position: worldCoord)
         
@@ -294,8 +278,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         }
         else if current > faces {
             
-            scnScene.rootNode.addAudioPlayer(SCNAudioPlayer(source: self.jumpSound))
-            //TODO: remove audio node
+            scnScene.rootNode.addAudioPlayer(SCNAudioPlayer(source: self.coinSound))
+            
             Async.main{
                 sceneRoot.addChildNode(geometryNode)
                 let index = sceneRoot.childNodes.count - 1
@@ -313,12 +297,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                 sceneRoot.childNodes[index].removeFromParentNode()
                 faces -= 1
             }
-            
         }
         
     }
 
-    
     // MARK: drawPoint
     func drawPoint(position: SCNVector3) -> SCNNode {
         
@@ -379,7 +361,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         }
         return nil
     }
-    
     
     /// Transform bounding box according to device orientation
     ///
